@@ -1,9 +1,0 @@
-#! /bin/bash
-
-for i in $*; do
-	git add $i;
-done
-
-git commit -m "asdf" > /dev/null
-
-git push origin master > /dev/null
